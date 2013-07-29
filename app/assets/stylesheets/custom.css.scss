@@ -1,0 +1,77 @@
+/* variables */
+
+$font: 'Roboto', sans-serif;
+
+/* style */
+
+body {
+	color: #ddd;
+	font-family: $font;
+	width: 100%;
+	text-align: center;
+	margin: 50px 0;
+	padding: 0;
+	background: #111 url("wild_oliva.png") repeat fixed;
+	wrapper {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+
+h2 {
+	font-size: 3em;
+	padding: 0 2em;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+
+	span#noun {
+		font-style: italic;
+		color: #ee0040;
+		&:hover { 
+			border-bottom: 3px dashed #eee; 
+			cursor: pointer;
+		}
+	}
+}
+
+h1 {
+	color: #999;
+}
+
+xmp {
+	font-family: $font;
+	display: inline;
+}
+
+#generator {
+	height: 300px;
+}
+
+#generate, #email, #twitter {
+	padding: 0.5em 1em;
+	background-color: #ee0040;
+	color: #ddd;
+	font-size: 1.6em;
+	font-family: $font;
+	text-decoration: none;
+	border: 0;
+	margin: 1em 0.5em;
+	&:hover { 
+		cursor: pointer;
+		color: #fff;
+		background-color: #333;
+	}
+}
+
+#email {
+	background-color: #00aaee;
+}
+
+a#twitter {
+	display: block;
+	clear: both;
+	text-align: left;
+}
